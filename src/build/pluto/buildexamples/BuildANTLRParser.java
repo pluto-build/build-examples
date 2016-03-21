@@ -13,8 +13,8 @@ import org.apache.commons.io.filefilter.SuffixFileFilter;
 import org.sugarj.common.FileCommands;
 
 import build.pluto.builder.Builder;
-import build.pluto.builder.BuilderFactory;
-import build.pluto.builder.BuilderFactoryFactory;
+import build.pluto.builder.factory.BuilderFactory;
+import build.pluto.builder.factory.BuilderFactoryFactory;
 import build.pluto.buildhttp.HTTPDownloader;
 import build.pluto.buildhttp.HTTPInput;
 import build.pluto.buildjava.JavaBulkCompiler;
